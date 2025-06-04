@@ -12,6 +12,10 @@
           extend: {
             fontFamily: {
               sans: ['Inter', 'sans-serif']
+            },
+            colors: {
+              primary: '#0f172a',
+              accent: '#2563eb'
             }
           }
         }
@@ -23,11 +27,11 @@
   </head>
   <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 font-sans">
     <header class="bg-white dark:bg-gray-800 shadow-md p-6 text-center relative">
-      <button onclick="document.documentElement.classList.toggle('dark')" class="absolute right-4 top-4 bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded text-sm">Toggle Theme</button>
+      <button onclick="document.documentElement.classList.toggle('dark')" class="absolute right-4 top-4 bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded text-sm">🌙 Toggle Theme</button>
       <h1 class="text-4xl font-extrabold">Shubham Gulia</h1>
       <p class="mt-2 text-lg">Cybersecurity Analyst | Threat Intelligence | GRC | SOC</p>
       <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Drimnagh, Dublin • +353892373337 • <a class="text-blue-600 underline" href="mailto:guliashubham21@gmail.com">guliashubham21@gmail.com</a></p>
-      <p class="text-sm text-gray-600 dark:text-gray-300"> <a class="text-blue-600 underline" href="#">LinkedIn</a> </p>
+      <p class="text-sm text-gray-600 dark:text-gray-300"> <a class="text-blue-600 underline" href="https://www.linkedin.com/in/shubham-gulia/">LinkedIn</a> </p>
     </header>
 
     <main class="max-w-5xl mx-auto py-10 px-4">
@@ -42,19 +46,19 @@
         <h2 class="text-3xl font-semibold mb-6 border-b pb-2">Featured Projects</h2>
 
         <div class="grid gap-6 sm:grid-cols-2">
-          <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-5 hover:shadow-xl transition">
+          <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-5 hover:shadow-2xl transition-transform transform hover:scale-105">
             <h3 class="text-xl font-bold mb-2">Virtual Network Lab with Penetration Testing</h3>
             <p>Simulated a realistic network environment integrating Splunk, Kali Linux, Security Onion, and more. Focused on attack simulations, monitoring, and IOC generation.</p>
             <p class="mt-2 text-sm text-gray-500 italic">Tools: Splunk, Kali Linux, Security Onion, VMware, HTB</p>
           </div>
 
-          <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-5 hover:shadow-xl transition">
+          <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-5 hover:shadow-2xl transition-transform transform hover:scale-105">
             <h3 class="text-xl font-bold mb-2">AWS-Hosted E-Commerce Web Application</h3>
             <p>Deployed and secured a full-stack e-commerce application using AWS services with IAM best practices, CloudTrail, and monitoring integrations.</p>
             <p class="mt-2 text-sm text-gray-500 italic">Tools: AWS Inspector, CloudWatch, CloudTrail, CloudFront, S3, EC2</p>
           </div>
 
-          <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-5 hover:shadow-xl transition sm:col-span-2">
+          <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-5 hover:shadow-2xl transition-transform transform hover:scale-105 sm:col-span-2">
             <h3 class="text-xl font-bold mb-2">College Companion Mobile App</h3>
             <p>Designed and built a basic Android application to streamline college communication and updates. Introduced SQLite-based local storage and user interaction layers.</p>
             <p class="mt-2 text-sm text-gray-500 italic">Tools: Android Studio, Java, XML, SQLite</p>
@@ -76,15 +80,16 @@
 
       <section class="transition duration-500">
         <h2 class="text-3xl font-semibold mb-4 border-b pb-2">Contact</h2>
-        <p>Email: <a href="mailto:guliashubham21@gmail.com" class="text-blue-600">guliashubham21@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/uchiha211" class="text-blue-600">github.com/uchiha211</a></p>
-        <p>LinkedIn: <a href="#" class="text-blue-600">https://www.linkedin.com/in/shubham-gulia/</a></p>
+        <p>Email: <a href="mailto:guliashubham21@gmail.com" class="text-blue-600 hover:underline">guliashubham21@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/uchiha211" class="text-blue-600 hover:underline">github.com/uchiha211</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shubham-gulia/" class="text-blue-600 hover:underline">LinkedIn Profile</a></p>
       </section>
     </main>
 
     <footer class="bg-white dark:bg-gray-800 mt-10 p-4 text-center text-sm text-gray-500 dark:text-gray-400">
       &copy; 2025 Shubham Gulia. All rights reserved.
     </footer>
+
+    <a href="#" class="fixed bottom-6 right-6 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition-all">⬆️ Back to Top</a>
   </body>
 </html>
-
